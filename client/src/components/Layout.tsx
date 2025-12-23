@@ -46,9 +46,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {/* Logo */}
             <Link href="/">
               <div className="flex items-center space-x-3 hover:opacity-90 transition-opacity">
-                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                  <Ship className="h-6 w-6 text-white" />
-                </div>
+                <img src="/logo-mdla-globe.png" alt="MDLA Logo" className="h-12 w-auto" />
                 <div className="flex flex-col leading-none">
                   <span className="font-heading font-bold text-xl tracking-tight text-primary">MDLA</span>
                   <span className="text-[10px] tracking-widest text-muted-foreground font-bold uppercase">International Logistics</span>
@@ -132,7 +130,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="bg-white p-2 rounded-sm">
-                  <Ship className="h-8 w-8 text-primary" />
+                  <img src="/logo-mdla-globe.png" alt="MDLA Logo" className="h-10 w-auto" />
                 </div>
                 <div className="flex flex-col">
                   <span className="font-heading font-bold text-xl leading-none text-white">MDLA</span>
