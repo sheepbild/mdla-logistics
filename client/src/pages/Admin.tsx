@@ -24,8 +24,29 @@ export default function Admin() {
   const categories = ['hero', 'product', 'logo', 'background', 'service', 'general'];
 
   useEffect(() => {
+    initializeBucket();
     loadImages();
   }, []);
+
+  const initializeBucket = async () => {
+    try {
+      const { data: buckets } = await supabase.storage.listBuckets();
+      const bucketExists = buckets?.some(bucket => bucket.name === 'images');
+
+      if (!bucketExists) {
+        const { error } = await supabase.storage.createBucket('images', {
+          public: true,
+          fileSizeLimit: 10485760,
+        });
+
+        if (error) {
+          console.error('Error creating bucket:', error);
+        }
+      }
+    } catch (error) {
+      console.error('Error initializing bucket:', error);
+    }
+  };
 
   const loadImages = async () => {
     try {
