@@ -30,8 +30,8 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10 pt-20">
           <div className="max-w-2xl text-white space-y-8 animate-in slide-in-from-left-10 duration-1000 fade-in">
-            <div className="inline-block bg-accent/90 text-white px-4 py-1 rounded-sm text-sm font-bold tracking-widest uppercase mb-2">
-              Expert Sourcing & Logistique
+            <div className="inline-block bg-red-600 text-white px-4 py-1.5 text-sm font-bold tracking-widest uppercase mb-2">
+              EXPERT SOURCING & LOGISTIQUE
             </div>
             <h1 className="text-5xl md:text-7xl font-heading font-extrabold leading-tight">
               Votre pont commercial entre <span className="text-accent">l'Europe</span> et <span className="text-accent">l'Afrique</span>
