@@ -13,7 +13,6 @@ import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
 import Tracking from "./pages/Tracking";
 import Invest from "./pages/Invest";
-import Admin from "./pages/Admin";
 
 function Router() {
   return (
@@ -27,7 +26,6 @@ function Router() {
         <Route path="/suivi-colis" component={Tracking} />
         <Route path="/contact" component={Contact} />
         <Route path="/mentions-legales" component={Legal} />
-        <Route path="/admin" component={Admin} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

@@ -20,9 +20,9 @@ export default function Home() {
       <section className="relative h-[85vh] w-full overflow-hidden flex items-center">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1920"
-            alt="Transport maritime Europe Afrique"
+          <img 
+            src="/images/hero-shipping.jpg" 
+            alt="Transport maritime Europe Afrique" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-transparent"></div>
@@ -30,8 +30,8 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10 pt-20">
           <div className="max-w-2xl text-white space-y-8 animate-in slide-in-from-left-10 duration-1000 fade-in">
-            <div className="inline-block bg-red-600 text-white px-4 py-1.5 text-sm font-bold tracking-widest uppercase mb-2">
-              EXPERT SOURCING & LOGISTIQUE
+            <div className="inline-block bg-accent/90 text-white px-4 py-1 rounded-sm text-sm font-bold tracking-widest uppercase mb-2">
+              Expert Sourcing & Logistique
             </div>
             <h1 className="text-5xl md:text-7xl font-heading font-extrabold leading-tight">
               Votre pont commercial entre <span className="text-accent">l'Europe</span> et <span className="text-accent">l'Afrique</span>
@@ -123,9 +123,9 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-accent/10 rounded-tl-3xl z-0"></div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-br-3xl z-0"></div>
-              <img
-                src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="Réunion de sourcing"
+              <img 
+                src="/images/sourcing-meeting.jpg" 
+                alt="Réunion de sourcing" 
                 className="relative z-10 rounded-sm shadow-2xl w-full object-cover aspect-[4/3]"
               />
               <div className="absolute -bottom-10 -left-10 bg-white p-6 shadow-xl rounded-sm z-20 max-w-xs hidden md:block border-l-4 border-accent">
@@ -224,10 +224,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Véhicules", img: "https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800", desc: "Neufs et occasions" },
-              { title: "Cosmétiques", img: "https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=800", desc: "Marques et produits de soin" },
-              { title: "Pièces Détachées", img: "https://images.pexels.com/photos/4488662/pexels-photo-4488662.jpeg?auto=compress&cs=tinysrgb&w=800", desc: "Auto et industrie" },
-              { title: "Matériel Industriel", img: "https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=800", desc: "Équipements professionnels" }
+              { title: "Véhicules", img: "/images/product-cars.jpg", desc: "Neufs et occasions" },
+              { title: "Cosmétiques", img: "/images/product-cosmetics.jpg", desc: "Marques et produits de soin" },
+              { title: "Pièces Détachées", img: "/images/warehouse-logistics.jpg", desc: "Auto et industrie" },
+              { title: "Matériel Industriel", img: "/images/hero-shipping.jpg", desc: "Équipements professionnels" }
             ].map((product, i) => (
               <div key={i} className="group relative overflow-hidden rounded-sm aspect-square cursor-pointer">
                 <img 
