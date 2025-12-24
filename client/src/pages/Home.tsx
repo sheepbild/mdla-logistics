@@ -21,7 +21,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/hero-shipping.jpg"
+            src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Transport maritime Europe Afrique"
             className="w-full h-full object-cover"
           />
@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10 pt-20">
           <div className="max-w-2xl text-white space-y-8 animate-in slide-in-from-left-10 duration-1000 fade-in">
-            <div className="inline-block bg-accent/90 text-white px-4 py-1 rounded-sm text-sm font-bold tracking-widest uppercase mb-2">
+            <div className="inline-block bg-accent text-white px-6 py-2 rounded-sm text-sm font-bold tracking-widest uppercase mb-2 shadow-lg">
               Expert Sourcing & Logistique
             </div>
             <h1 className="text-5xl md:text-7xl font-heading font-extrabold leading-tight">
