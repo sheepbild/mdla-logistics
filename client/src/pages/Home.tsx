@@ -21,7 +21,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/hero-shipping.jpg"
             alt="Transport maritime Europe Afrique"
             className="w-full h-full object-cover"
           />
