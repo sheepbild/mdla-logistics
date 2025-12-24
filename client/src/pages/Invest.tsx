@@ -63,7 +63,7 @@ export default function Invest() {
             {/* Opportunity Card 1 */}
             <div className="bg-white rounded-sm shadow-md overflow-hidden border border-border group hover:shadow-xl transition-all">
               <div className="h-48 overflow-hidden relative">
-                <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Véhicules" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <img src="/images/product-cars.jpg" alt="Véhicules" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
                   ROI Est. 18%
                 </div>
@@ -94,7 +94,7 @@ export default function Invest() {
             {/* Opportunity Card 2 */}
             <div className="bg-white rounded-sm shadow-md overflow-hidden border border-border group hover:shadow-xl transition-all">
               <div className="h-48 overflow-hidden relative">
-                <img src="https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cosmétiques" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <img src="/images/product-cosmetics.jpg" alt="Cosmétiques" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
                   ROI Est. 22%
                 </div>
@@ -125,7 +125,7 @@ export default function Invest() {
             {/* Opportunity Card 3 */}
             <div className="bg-white rounded-sm shadow-md overflow-hidden border border-border group hover:shadow-xl transition-all">
               <div className="h-48 overflow-hidden relative">
-                <img src="https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Matériel BTP" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <img src="/images/warehouse-logistics.jpg" alt="Matériel BTP" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
                   ROI Est. 15%
                 </div>

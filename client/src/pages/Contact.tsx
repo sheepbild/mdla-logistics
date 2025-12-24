@@ -44,9 +44,9 @@ export default function Contact() {
       {/* Header Section */}
       <section className="bg-primary text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img
-            src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920"
-            alt="Background"
+          <img 
+            src="/images/sourcing-meeting.jpg" 
+            alt="Background" 
             className="w-full h-full object-cover"
           />
         </div>
