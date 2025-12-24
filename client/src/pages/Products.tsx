@@ -8,42 +8,42 @@ export default function Products() {
       id: "vehicles",
       title: "Véhicules",
       desc: "Exportation de véhicules neufs et d'occasion (tourisme, utilitaires, camions) depuis l'Europe.",
-      image: "/images/product-cars.jpg",
+      image: "https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=1200",
       items: ["Voitures de tourisme", "Utilitaires légers", "Poids lourds", "Engins de chantier"]
     },
     {
       id: "cosmetics",
       title: "Cosmétiques & Beauté",
       desc: "Large gamme de produits de beauté, parfumerie et soins corporels de grandes marques européennes.",
-      image: "/images/product-cosmetics.jpg",
+      image: "https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=1200",
       items: ["Parfums", "Soins du visage", "Produits capillaires", "Maquillage"]
     },
     {
       id: "baby",
       title: "Univers Bébé",
       desc: "Produits d'hygiène et d'équipement pour la petite enfance, conformes aux normes européennes.",
-      image: "/images/warehouse-logistics.jpg", // Fallback image if specific one not generated
+      image: "https://images.pexels.com/photos/6787933/pexels-photo-6787933.jpeg?auto=compress&cs=tinysrgb&w=1200",
       items: ["Couches bébé", "Lait infantile", "Vêtements", "Puériculture"]
     },
     {
       id: "parts",
       title: "Pièces Détachées",
       desc: "Pièces de rechange d'origine ou adaptables pour l'automobile et l'industrie.",
-      image: "/images/hero-shipping.jpg", // Fallback image
+      image: "https://images.pexels.com/photos/4488662/pexels-photo-4488662.jpeg?auto=compress&cs=tinysrgb&w=1200",
       items: ["Pièces auto", "Pièces poids lourds", "Composants industriels", "Outillage"]
     },
     {
       id: "textile",
       title: "Textile & Habillement",
       desc: "Vêtements neufs, déstockage de marques et friperie de qualité triée.",
-      image: "/images/sourcing-meeting.jpg", // Fallback image
+      image: "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       items: ["Vêtements homme/femme", "Vêtements enfants", "Chaussures", "Linge de maison"]
     },
     {
       id: "other",
       title: "Autres Produits",
       desc: "Nous sourçons tout autre type de produit selon votre demande spécifique.",
-      image: "/images/warehouse-logistics.jpg",
+      image: "https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg?auto=compress&cs=tinysrgb&w=1200",
       items: ["Électroménager", "Matériaux de construction", "Produits alimentaires secs", "Équipement informatique"]
     }
   ];
@@ -53,9 +53,9 @@ export default function Products() {
       {/* Header Section */}
       <section className="bg-primary text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img 
-            src="/images/product-cars.jpg" 
-            alt="Background" 
+          <img
+            src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Background"
             className="w-full h-full object-cover"
           />
         </div>

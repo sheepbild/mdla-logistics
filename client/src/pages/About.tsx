@@ -6,9 +6,9 @@ export default function About() {
       {/* Header Section */}
       <section className="bg-primary text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img 
-            src="/images/warehouse-logistics.jpg" 
-            alt="Background" 
+          <img
+            src="https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Background"
             className="w-full h-full object-cover"
           />
         </div>
@@ -26,9 +26,9 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-accent rounded-sm z-0"></div>
-              <img 
-                src="/images/sourcing-meeting.jpg" 
-                alt="Notre mission" 
+              <img
+                src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="Notre mission"
                 className="relative z-10 rounded-sm shadow-xl w-full"
               />
             </div>
@@ -79,9 +79,9 @@ export default function About() {
             {/* Founder 1 */}
             <div className="group relative">
               <div className="relative overflow-hidden rounded-sm shadow-lg aspect-[3/4]">
-                <img 
-                  src="/images/founder-1.jpg" 
-                  alt="Co-Fondateur" 
+                <img
+                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Co-Fondateur"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
@@ -95,9 +95,9 @@ export default function About() {
             {/* Founder 2 */}
             <div className="group relative">
               <div className="relative overflow-hidden rounded-sm shadow-lg aspect-[3/4]">
-                <img 
-                  src="/images/founder-2.webp" 
-                  alt="Co-Fondateur" 
+                <img
+                  src="https://images.pexels.com/photos/3778966/pexels-photo-3778966.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Co-Fondateur"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
@@ -186,9 +186,9 @@ export default function About() {
               </div>
             </div>
             <div className="relative h-full min-h-[400px] rounded-sm overflow-hidden shadow-2xl">
-              <img 
-                src="/images/hero-shipping.jpg" 
-                alt="Transport maritime" 
+              <img
+                src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="Transport maritime"
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
